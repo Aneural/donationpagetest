@@ -14,10 +14,19 @@
 		<main>
 			<header>
 				<a href="#index.html"><img src="../images/logo rebeca.svg"></a>
+        <div class="language-select-phone">
+          <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <!-- <option disabled selected value>Language</option>  -->
+            <option value="../index.html">ES</option>
+            <option value="./index_en.html" selected>EN</option>
+          </select>
+        </div>
 			</header>
 			<div class="more-info">
-				<p class="text-box">Help me to complete my treatment</p>
-				<button class="btn" type="button">View medical records</button>	
+        <div class="div-align-query">
+          <p class="text-box">Help me to complete my treatment</p>
+          <button class="btn" type="button">View medical records</button>
+        </div>	
 			</div>
 			<div class="content">
         <div class="language-select">
