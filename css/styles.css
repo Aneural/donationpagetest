@@ -108,7 +108,6 @@ header a {
 	flex-direction: column;
   margin-top: 80px;
   max-width: 100vh;
-  background-color: red;
 }
 
 .language-select {
