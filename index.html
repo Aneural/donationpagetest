@@ -21,11 +21,11 @@
 				<p class="light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt, adipisci quibusdam saepe corrupti officia libero error architecto ipsa blanditiis illum. Placeat vel suscipit iure minima quisquam inventore sed incidunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nam assumenda veniam dolore ipsam tenetur temporibus, officiis impedit minus expedita veritatis, a iusto! Repellendus corrupti unde totam molestias reiciendis labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, mollitia! Repudiandae est illo quaerat maiores iusto mollitia dolor! Eum molestias consectetur laboriosam qui distinctio id repellendus aliquam mollitia incidunt modi.</p>
 				<div id="smart-button-container" class="button-container-style">
 					<div style="visibility: hidden; text-align: center"><label for="description"> </label><input type="text" name="descriptionInput" id="description" maxlength="127" value="N.1"></div>
-					  <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+					  <p id="descriptionError" style="visibility: hidden; color:rgb(255, 111, 111); text-align: center;">Please enter a description</p>
 					<div style="text-align: center" class="input-amount"><label for="amount">Donación </label><input class="quantity" name="amountInput" type="number" id="amount" value="" placeholder="Cantidad USD"></div>
-					  <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+					  <p id="priceLabelError" style="visibility: hidden; color:rgb(255, 111, 111); text-align: center;">Por favor ingresa una cantidad</p>
 					<div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
-					  <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+					  <p id="invoiceidError" style="visibility: hidden; color:rgb(255, 111, 111); text-align: center;">Please enter an Invoice ID</p>
 					<div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
 				  </div>
 				  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
@@ -123,7 +123,7 @@
 						  // Show a success message within this page, e.g.
 						  const element = document.getElementById('paypal-button-container');
 						  element.innerHTML = '';
-						  element.innerHTML = '<h3>Thank you for your payment!</h3>';
+						  element.innerHTML = '<h3>Gracias por tu donación!</h3>';
 				
 						  // Or go to another URL:  actions.redirect('thank_you.html');
 						  
