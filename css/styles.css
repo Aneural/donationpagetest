@@ -86,7 +86,7 @@ h1 {
 	font-size: 4rem;
 }
 
-.content p {
+.light-text {
   margin-top: 20px;
 	padding: 10px;
 	font-size: 1.5rem;
@@ -100,20 +100,11 @@ h1 {
 	position: relative;
 	max-width: 2em;
 }
-/* .button-container-style {
-  margin: 0 !important;
-  height: 220px;
-} */
-.payment-container{
-  display: flex;
-  align-self: center;
-  width: 20vw;
-}
-.paypal-container-styles{
-  display: flex;
-  align-items: center;
-}
+
 .button-container-style{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   width: 20vw;
   height: 3.265vh;
 }
