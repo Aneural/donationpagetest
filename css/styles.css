@@ -100,4 +100,40 @@ h1 {
 	position: relative;
 	max-width: 2em;
 }
-
+/* .button-container-style {
+  margin: 0 !important;
+  height: 220px;
+} */
+.payment-container{
+  display: flex;
+  align-self: center;
+  width: 20vw;
+}
+.paypal-container-styles{
+  display: flex;
+  align-items: center;
+}
+.button-container-style{
+  width: 20vw;
+  height: 3.265vh;
+}
+.input-amount{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donation-text{
+  font-size: 1.625rem;
+  text-align: center;
+}
+.quantity {
+  margin: 10px 0 10px 0;
+  border-radius: 50px;
+  border-style: none;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+.quantity:hover {
+  border-style: none;
+}
