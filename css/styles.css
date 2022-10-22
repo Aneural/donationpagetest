@@ -73,7 +73,6 @@ header a {
   margin-inline: 0 10px;
   max-height: 15em;
   width: 40em;
-  /* background: #8D0801; */
   top: 40.5em;
   right: 10em;
 }
@@ -247,21 +246,17 @@ h1 {
     width: 8em;
   }
   .more-info {
-    display:block;
+    display:flex;
     position: inherit;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
     left: 30px;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /*  */
     width: 100%;
   }
   .btn {
-    position: relative;
-    margin: 20px auto 0 auto;
+    margin: 50px auto 0 auto;
     border-style: none;
     width: 13em;
-    height: 7vh;
+    height: 3em;
     cursor: pointer;
     border-radius: 50px;
     background: rgba(128, 128, 128, 0.856);
@@ -274,12 +269,13 @@ h1 {
   .div-align-query {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
   }
   .text-box {
     display: flex;
     background: var(--color-dark-blue);
-    padding-block: 20px;
-    padding-inline: 30px;
+    padding-block: 15px;
+    padding-inline: 25px;
     font-size: 1.2rem;
     min-height: 3.765em;
     width: 100%;
@@ -290,6 +286,7 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    margin-top: 20px;
   }
   .language-select{
     display: none;
@@ -316,7 +313,7 @@ h1 {
   }
   .scroll-div{
     margin-top: 10px;
-    max-height: 55%;
+    max-height: 100%;
     overflow-y:auto;
     overflow-x: hidden;
     border-radius: 10px;
@@ -343,7 +340,7 @@ h1 {
     word-spacing: 2px;
     text-align: justify;
     border-radius: 0.5em;
-    overflow: hidden;
+    overflow:auto;
   }
   .scroll-div em {
     font-weight: bold;
