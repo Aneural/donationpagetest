@@ -64,6 +64,12 @@ header a {
   margin-block: 20px 0;
   width: 8em;
 }
+.more-info-query {
+  display: none;
+}
+.div-align-query {
+  display: none;
+}
 .more-info {
   display: flex;
   flex-direction: column;
@@ -246,10 +252,19 @@ h1 {
     width: 8em;
   }
   .more-info {
+    display: none;
+  }
+  .more-info-query {
     display:flex;
     position: inherit;
     margin: 20px auto 0 auto;
     left: 30px;
+    width: 100%;
+  }
+  .div-align-query {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     width: 100%;
   }
   .btn {
@@ -266,11 +281,7 @@ h1 {
   .btn:hover{
     background: rgba(107, 107, 107, 0.856);
   }
-  .div-align-query {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-  }
+  
   .text-box {
     display: flex;
     background: var(--color-dark-blue);
