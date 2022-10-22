@@ -65,10 +65,10 @@ header a {
   width: 8em;
 }
 .more-info-query {
-  display: none;
+  visibility: hidden;
 }
 .div-align-query {
-  display: none;
+  visibility: hidden;
 }
 .more-info {
   display: flex;
@@ -252,7 +252,7 @@ h1 {
     width: 8em;
   }
   .more-info {
-    display: none;
+    visibility: hidden;
   }
   .more-info-query {
     display:flex;
