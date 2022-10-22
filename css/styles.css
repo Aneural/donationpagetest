@@ -256,6 +256,7 @@ h1 {
   }
   .more-info-query {
     display:flex;
+    visibility: visible;
     position: inherit;
     margin: 20px auto 0 auto;
     left: 30px;
@@ -263,6 +264,7 @@ h1 {
   }
   .div-align-query {
     display: flex;
+    visibility: visible;
     flex-direction: column;
     margin-top: 50px;
     width: 100%;
